@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online courses</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous"> 
+    <link rel="stylesheet" href="practice.css">
+</head>
+<body>
+    <header>
+        <div class="overlay">
+        </div>
+        <img src="./images/fullwidth/laptop.jpg" alt="">
+        <div class="container h-100">
+            <div class="d-flex h-100 text-center align-items-center">
+                <div class="w-100">
+                    <h1 class="display-3 px-2">
+                       Unlimited online courses
+                    </h1>
+                    <p class="lead mb-0">Watch anywhere. Advance your career.</p>
+                    <p>
+                        <a href="#checkout" class="btn btn-primary my-5 px-4 py-2">Enroll now ></a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </header>
+    
+
+    <div class="pricing-header text-center">
+        <h2 class="display-4 py-5">
+            Pricing
+        </h2>
+    </div>
+
+    <div class="container">
+        <div class="card-deck mb-4 text-center ">
+
+            <div class="card shadow-sm">
+
+                <div class="card-header text-dark">
+
+                    <h3>Responsive web design</h3>
+
+                </div>
+                <div class="card-body">
+
+                    <h3 class="card-title pricing-card-title text-dark">
+                        $49.99
+                    <small class="text-muted">Regularly $499.99</small>
+                    </h3>
+
+                    <ul class="list-unstyled text-dark">
+                        <li>Lifetime acess</li>
+                        <li>Certificate of completion</li>
+                        <li>Project based curriculum</li>
+                        <li>800,000 copies sold</li>
+                    </ul>
+
+                    <button type="button" class="btn btn-lg btn-block btn-outline-primary">Buy now</button>
+
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+
+    <div class="checkout">
+        <div class="header text-center">
+            <h2 class="display-4 py-4">
+                Checkout
+            </h2>
+        </div>
+
+        <div class="row px-5 mx-0 py-5">
+
+            <div class="col-md-4 order-md-2 mb-4">
+                <h4 class="d-flex justify-content-between align-items-center mb-3">
+                    <span class="text-muted">Your cart</span>
+                    <span class="badge badge-secondary badge-pill">
+                        1
+                    </span>
+
+                </h4>
+
+                    <ul class="list-group mb-3 ">
+                        <li class="list-group-item d-flex justify-content-between bg-light">
+
+                            <div class="text-success">
+                                <h5>
+                                    Promo code
+                                    <small>SALE</small>
+                                </h5>
+                            </div>
+                            <span class="text-success">
+                                -$405.09
+                            </span>
+                        </li>
+                        <li class="list-group-item d-flex justify-content-between bg-light text-dark">
+
+                            <span>
+                                Total (USD)
+                            </span>
+
+                            <strong>
+                                $49.99
+                            </strong>
+                        </li>
+                    </ul>
+
+                    <form action="" class="card p-2">
+
+                        <div class="input-group">
+                            <input type="text" class="form-control" placeholder="Promo code">
+                            <div class="input-group-append">
+                                <button type="submit" class="btn btn-secondary">
+                                    Redeem
+                                </button>
+                            </div>
+                        </div>
+                    </form>
+                
+            </div>
+
+            <div class="col-md-8 order-1">
+
+                <h4 class="mb-3">
+                    Billing address
+                </h4>
+
+                <form action="">
+
+                    <div class="row">
+
+                        <div class="col-md-6 mb-3">
+
+                            <input type="text" class="form-control" id="firstName" required>
+                            <label for="firstName">FirstName</label>
+
+                        </div>
+                        <div class="col-md-6 mb-3">
+
+                            <input type="text" class="form-control" id="lastName" required>
+                            <label for="lastName">Last name</label>
+
+                        </div>
+                    </div>
+
+                    <div class="mb-3">
+
+                        <input type="email" class="form-control" id="email">
+                        <label for="email">Email</label>
+                    </div>
+
+                    <div class="mb-3">
+
+                        <input type="text" class="form-control" id="address">
+                        <label for="address">Address</label>
+                    </div>
+                    <div class="row">
+
+                        <div class="col-md-5 mb-3">
+
+                            <label for="country">Country</label>
+                         <select name="" id="country" class="custom-select d-block w-100">
+                               
+                            <option value="">Choose</option>
+                            <option>Nigeria</option>
+                            <option>South Africa</option>
+                            <option>Senegal</option>
+                            <option>Egypt</option>
+                            <option>Kenya</option>
+                           
+                         </select>
+
+                        </div> 
+
+                        <div class="col-md-4 mb-3">
+
+                            <label for="state">state</label>
+
+                            <select name="" id="state" class="custom-select d-block w-100">
+
+                                <option value="">Choose</option>
+                                <option>Cairo</option>
+                                <option>Timbuktu</option>
+                                <option>Pretoria</option>
+                                <option>Lagos</option>
+                                <option>Nairobi</option>
+                            </select>
+                        </div>
+                        <div class="col-md-3 mb-3">
+
+                            <label for="zipcode">Zipcode</label>
+
+                            <input type="text" id="zipcode" class="form-control">
+
+                        </div>
+
+                    </div>
+
+                    <div class="custom-control custom-checkbox">
+
+                        <input type="checkbox" class="custom-control-input" id="same=address">
+                        <label for="same=address" class="custom-control-label">
+                            Shipping address is the same as my billing address.
+                        </label>
+                    </div>
+
+                    <div class="custom-control custom-checkbox">
+
+                        <input type="checkbox" class="custom-control-input" id="save-information">
+                        <label for="save-information" class="custom-control-label">
+                            Save my address
+                        </label>
+                    </div>
+
+                    <h3 class="mb-3 py-3">
+                        Payment
+                    </h3>
+
+                    <div class="d-block my-3">
+
+                        <div class="custom-control custom-radio">
+
+                            <input type="radio" id="creditcard" name="paymentMethod" class="custom-control-input">
+                            <label for="creditcard" class="custom-control-label">Credit card</label>
+                        </div>
+
+                        <div class="custom-control custom-radio">
+
+                            <input type="radio" id="debitcard" name="paymentMethod" class="custom-control-input" checked>
+                            <label for="debitcard" class="custom-control-label">Debit card</label>
+                        </div>
+
+                        <div class="custom-control custom-radio">
+
+                            <input type="radio" name="paymentMethod" class="custom-control-input" id="paypal">
+                            <label for="paypal" class="custom-control-label">Paypal</label>
+                        </div>
+                    </div>
+
+                    <div class="row">
+
+                        <div class="col-md-6 mb-3">
+
+                            <input type="text" id="cardholder" class="form-control">
+                            <label for="cardholder">
+                                Name of cardholder
+                            </label>
+
+                        </div>
+
+                        <div class="col-md-6 mb-3">
+
+                            <input type="text" class="form-control" id="cardnumber">
+                            <label for="cardnumber">
+                                Card number
+                            </label>
+
+                        </div>
+
+                    </div>
+
+                    <div class="row">
+
+                        <div class="col-md-3 mb-3">
+
+                            <input type="text" id="expiration-date" class="form-control">
+                            <label for="expiration-date">
+                                Expiration
+                            </label>
+                        </div>
+
+                        <div class="col-md-3 mb-3">
+
+                            <input type="text" class="form-control" id="security-code">
+                            <label for="security-code">
+                                Card code
+                            </label>
+
+                        </div>
+
+                    </div>
+
+                    <button class="btn btn-primary btn-lg btn-block" type="submit">
+                        Submit
+                    </button>
+                </form>
+            </div>
+
+        </div>
+
+
+    </div>
+    
+    <footer class="bg-light text-center">
+        <!-- Grid container -->
+        <div class="container p-4 pb-0">
+          <!-- Section: Form -->
+          <section class="" >
+            <form action="">
+              <!--Grid row-->
+              <div class="row d-flex justify-content-center">
+                <!--Grid column-->
+                <div class="col-auto">
+                  <p class="pt-2 text-dark">
+                    <strong>Sign up for our newsletter</strong>
+                  </p>
+                </div>
+                <!--Grid column-->
+      
+                <!--Grid column-->
+                <div class="col-md-5 col-12">
+                  <!-- Email input -->
+                  <div class="form-outline mb-2 text-dark">
+                    <input type="email" id="form5Example27" class="form-control" />
+                    <label class="form-label" for="form5Example27">Email address</label>
+                  </div>
+                </div>
+                <!--Grid column-->
+      
+                <!--Grid column-->
+                <div class="col-auto">
+                  <!-- Submit button -->
+                  <button type="submit" class="btn btn-primary mb-2">
+                    Subscribe
+                  </button>
+                </div>
+                <!--Grid column-->
+              </div>
+              <!--Grid row-->
+            </form>
+          </section>
+          <!-- Section: Form -->
+        </div>
+        <!-- Grid container -->
+      
+        <!-- Copyright -->
+        <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.7);">
+          © 2021 Copyright:
+          <a class="text-white" href="#">KhalilsWorld.com</a>
+        </div>
+        <!-- Copyright -->
+      </footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</body>
+</html>
